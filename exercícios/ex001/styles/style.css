@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightyellow;
+    width: 500px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.579);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    height: 100px;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+header > h1 {
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    line-height: 3em;
+    font-size: 1.8em;
+    height: 430px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.385);
+    text-shadow: none;
+}
+
+main > section > div#imagem {
+    background: url(../images/night-200.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+footer {
+    font-size: 1.5em;
+    padding: 10px;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.887);
+}
