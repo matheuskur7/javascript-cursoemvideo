@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exrcício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+    </header>
+    <main>
+        <section id="conteudo">
+            <div id="formulario">
+                <p id="inicio">
+                    <label for="txtinicio">Início:</label>
+                    <input type="number" name="txtinicio" id="txtinicio">
+                </p>
+                <p id="fim">
+                    <label for="txtfim">Fim:</label>
+                    <input type="number" name="txtfim" id="txtfim">
+                </p>
+                <p id="passo">
+                    <label for="txtpasso">Passo:</label>
+                    <input type="number" name="txtpasso" id="txtpasso">
+                </p>
+
+                <p><input id="contar" type="button" value="Contar" onclick="contar()"></p>
+            </div>
+            <div id="resultado">Preparando a contagem...</div>
+        </section>
+    </main>
+    <footer>
+        <p>@MatheusKur</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

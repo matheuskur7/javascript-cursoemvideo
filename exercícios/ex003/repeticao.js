@@ -1,5 +1,3 @@
-var c = 1
-while(c <= 100000000) {
-    console.log(`Opa! ${c}`)
-    c++
+for (var i = 0; i <= 10; i ++) {
+    console.log(`Oopa! ${i}`)
 }
