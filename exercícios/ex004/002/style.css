@@ -34,29 +34,6 @@ main {
     padding: 20px;
 }
 
-section#conteudo > div#formulario p {
-    display: block; 
-    padding: 10px;
-}
-
-input {
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-
-input#contar {
-    background-color: rgb(129, 21, 21);
-    color: white;
-}
-
-input#contar:hover {
-    background-color: rgb(182, 37, 37);
-    transition-duration: .3s;
-    cursor: pointer;
-}
-
 footer {
     text-align: center;
     padding: 10px;
